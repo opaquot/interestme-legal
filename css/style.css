@@ -279,7 +279,6 @@ section a {
   border-radius: 12px;
   padding: 14px 16px;
   margin: 0 0 22px;
-  border-left: 4px solid var(--green-primary);
   background: var(--green-light);
 }
 
