@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InterestMe — Informativa sulla privacy</title>
+  <meta name="description" content="Informativa sulla privacy di InterestMe — l'app funziona interamente offline e non raccoglie, trasmette né memorizza alcun tuo dato.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/svg+xml" href="../img/logo.svg">
+  <script>
+    /* The app passes ?theme=dark|light when its in-app theme overrides the OS
+       setting. Without the parameter the page follows prefers-color-scheme. */
+    (function () {
+      var m = /[?&]theme=(dark|light)/.exec(location.search);
+      if (!m) return;
+      document.documentElement.setAttribute('data-theme', m[1]);
+      document.addEventListener('DOMContentLoaded', function () {
+        var links = document.querySelectorAll('.footer-langs a');
+        for (var i = 0; i < links.length; i++) {
+          links[i].search = '?theme=' + m[1];
+        }
+      });
+    })();
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../index.html">
+      <img class="brand-mark" src="../img/logo.svg" alt="" width="42" height="42">
+      <span class="brand-text">
+        <span class="brand-name">InterestMe</span>
+        <span class="brand-tagline">I tuoi soldi, il tuo futuro</span>
+      </span>
+    </a>
+  </div>
+</header>
+
+<main class="container">
+  <article class="doc-card">
+    <header class="doc-header">
+      <h1>Informativa sulla privacy</h1>
+      <p class="doc-meta">Data di entrata in vigore: <time datetime="2026-09-11">11 settembre 2026</time></p>
+      <div class="doc-badges">
+        <span class="badge">Completamente offline</span>
+        <span class="badge">Nessun dato raccolto</span>
+        <span class="badge">Nessun account richiesto</span>
+      </div>
+    </header>
+
+    <p class="lead">
+      La presente informativa sulla privacy spiega come l'applicazione mobile InterestMe («l'App»), pubblicata da DevOP, gestisce le tue informazioni. Si applica alla versione 1.0.0
+      dell'App. In breve: l'App funziona interamente offline e non raccoglie, trasmette né
+      memorizza alcun tuo dato. I dettagli sono riportati di seguito.
+    </p>
+
+    <nav class="toc" aria-label="Indice">
+      <p class="toc-title">Indice</p>
+      <ol>
+        <li><a href="#chi-siamo">Chi siamo</a></li>
+        <li><a href="#in-breve">In breve</a></li>
+        <li><a href="#sul-dispositivo">Dati memorizzati sul tuo dispositivo</a></li>
+        <li><a href="#invio-volontario">Informazioni che ci invii volontariamente</a></li>
+        <li><a href="#nessuna-pubblicita">Nessuna pubblicità, analisi o tracciamento</a></li>
+        <li><a href="#servizi-terzi">Collegamenti a servizi di terze parti</a></li>
+        <li><a href="#minori">Minori</a></li>
+        <li><a href="#tuoi-diritti">I tuoi diritti</a></li>
+        <li><a href="#modifiche">Modifiche alla presente informativa</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ol>
+    </nav>
+
+    <section id="chi-siamo">
+      <h2><span class="num">1</span>Chi siamo</h2>
+      <p>
+        L'App è pubblicata da <strong>DevOP</strong>. Per qualsiasi domanda su
+        questa informativa, scrivici a
+        <a href="mailto:support@interestme.example">support@interestme.example</a>.
+      </p>
+    </section>
+
+    <section id="in-breve">
+      <h2><span class="num">2</span>In breve</h2>
+      <ul>
+        <li>L'App funziona completamente offline e non si connette a Internet da sola.</li>
+        <li>Non raccogliamo, riceviamo né memorizziamo alcun dato personale su server.</li>
+        <li>Nessun account, nessuna registrazione, nessuna analisi, nessuna pubblicità, nessuna segnalazione di crash.</li>
+        <li>Tutto ciò che inserisci rimane sul tuo dispositivo.</li>
+      </ul>
+    </section>
+
+    <section id="sul-dispositivo">
+      <h2><span class="num">3</span>Dati memorizzati sul tuo dispositivo</h2>
+      <p>
+        L'App memorizza i tuoi inserimenti solo sul tuo dispositivo, in un database locale e nelle
+        preferenze locali. Questo può includere:
+      </p>
+      <ul>
+        <li>il tuo nome, se scegli di inserirlo al primo avvio;</li>
+        <li>le tue simulazioni di interesse composto e i tuoi piani di risparmio salvati;</li>
+        <li>le tue preferenze (valuta, formato dei numeri, aspetto).</li>
+      </ul>
+      <p>
+        Questi dati non lasciano mai il tuo dispositivo e non sono mai accessibili a noi né a terzi.
+        Se disinstalli l'App, questi dati vengono eliminati insieme ad essa.
+      </p>
+    </section>
+
+    <section id="invio-volontario">
+      <h2><span class="num">4</span>Informazioni che ci invii volontariamente</h2>
+      <p>
+        Se usi la funzione di feedback o ci scrivi direttamente a
+        <a href="mailto:support@interestme.example">support@interestme.example</a>, puoi inviarci
+        il tuo indirizzo e-mail e il contenuto del tuo messaggio. L'App apre solo l'applicazione di
+        posta del tuo dispositivo; nulla ci viene inviato finché non invii realmente l'e-mail.
+      </p>
+      <p>
+        Usiamo le informazioni che ci invii solo per risponderti. Non ti iscriviamo a nessuna lista
+        di distribuzione né le usiamo per finalità di marketing. Le conserviamo solo per il tempo
+        necessario a gestire la tua richiesta.
+      </p>
+    </section>
+
+    <section id="nessuna-pubblicita">
+      <h2><span class="num">5</span>Nessuna pubblicità, analisi o tracciamento</h2>
+      <p>
+        Non utilizziamo pubblicità, servizi di analisi, strumenti di segnalazione dei crash né
+        alcun tipo di tracciamento. L'App non contiene tracker o SDK di terze parti.
+      </p>
+    </section>
+
+    <section id="servizi-terzi">
+      <h2><span class="num">6</span>Collegamenti a servizi di terze parti</h2>
+      <p>
+        L'App può aprire collegamenti nel tuo browser (ad esempio queste pagine) o nell'applicazione
+        di posta del tuo dispositivo. Questi servizi hanno le proprie informative sulla privacy e
+        non siamo responsabili di come trattano i tuoi dati. Ti invitiamo a consultare le loro
+        informative prima di utilizzarli.
+      </p>
+    </section>
+
+    <section id="minori">
+      <h2><span class="num">7</span>Minori</h2>
+      <p>
+        L'App non è rivolta a minori. Poiché l'App non raccoglie dati personali, non raccogliamo
+        consapevolmente nemmeno informazioni da minori.
+      </p>
+    </section>
+
+    <section id="tuoi-diritti">
+      <h2><span class="num">8</span>I tuoi diritti</h2>
+      <p>
+        A seconda del tuo luogo di residenza (ad esempio, ai sensi del Regolamento generale sulla
+        protezione dei dati dell'UE), potresti avere il diritto di accedere, rettificare o cancellare
+        i dati personali che ti riguardano. Poiché l'App stessa non conserva alcun dato personale su
+        di te, l'esercizio di questi diritti consiste in genere nell'eliminare l'App e i suoi dati
+        locali dal tuo dispositivo. Per tutto ciò che riguarda i messaggi che ci hai inviato,
+        contattaci a
+        <a href="mailto:support@interestme.example">support@interestme.example</a>.
+      </p>
+    </section>
+
+    <section id="modifiche">
+      <h2><span class="num">9</span>Modifiche alla presente informativa</h2>
+      <p>
+        Potremmo aggiornare la presente informativa di tanto in tanto. In tal caso, aggiorneremo la
+        «Data di entrata in vigore» sopra riportata e pubblicheremo la nuova versione su questa
+        pagina.
+      </p>
+    </section>
+
+    <section id="contatti">
+      <h2><span class="num">10</span>Contatti</h2>
+      <p>
+        Domande o richieste:
+        <a href="mailto:support@interestme.example">support@interestme.example</a><br>
+        Editore: <strong>DevOP</strong>
+      </p>
+    </section>
+  </article>
+
+</main>
+
+<footer class="site-footer">
+  <nav class="footer-langs" aria-label="Lingua">
+      <a href="../en/privacy.html" hreflang="en" lang="en">English</a>
+      <a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a>
+      <span class="current" lang="it">Italiano</span>
+      <a href="../es/privacy.html" hreflang="es" lang="es">Español</a>
+  </nav>
+  <p>© 2026 DevOP · <a href="mailto:support@interestme.example">support@interestme.example</a></p>
+</footer>
+
+</body>
+</html>

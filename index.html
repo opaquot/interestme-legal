@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InterestMe — Legal</title>
+  <meta name="description" content="InterestMe legal pages: Privacy Policy and Terms of Service in English, French, Italian and Spanish.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+  <script>
+    /* The app passes ?theme=dark|light when its in-app theme overrides the OS
+       setting. Without the parameter the page follows prefers-color-scheme. */
+    (function () {
+      var m = /[?&]theme=(dark|light)/.exec(location.search);
+      if (!m) return;
+      document.documentElement.setAttribute('data-theme', m[1]);
+      document.addEventListener('DOMContentLoaded', function () {
+        var links = document.querySelectorAll('.footer-langs a');
+        for (var i = 0; i < links.length; i++) {
+          links[i].search = '?theme=' + m[1];
+        }
+      });
+    })();
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="img/logo.svg" alt="" width="42" height="42">
+      <span class="brand-text">
+        <span class="brand-name">InterestMe</span>
+        <span class="brand-tagline">Your money, your future</span>
+      </span>
+    </a>
+  </div>
+</header>
+
+<main class="container">
+  <div class="page-title">
+    <p class="doc-kicker">Legal</p>
+    <h1>Privacy Policy &amp; Terms of Service</h1>
+    <p>
+      InterestMe is a fully offline personal finance app. It collects no data. Choose a language
+      below to read the documents.
+    </p>
+  </div>
+
+  <div class="grid">
+    <a href="en/privacy.html">
+      <span class="grid-kicker">Privacy Policy</span>
+      <span class="grid-title">English</span>
+      <span class="grid-langs">EN</span>
+    </a>
+    <a href="en/terms.html">
+      <span class="grid-kicker">Terms of Service</span>
+      <span class="grid-title">English</span>
+      <span class="grid-langs">EN</span>
+    </a>
+    <a href="fr/privacy.html">
+      <span class="grid-kicker">Politique de confidentialité</span>
+      <span class="grid-title">Français</span>
+      <span class="grid-langs">FR</span>
+    </a>
+    <a href="fr/terms.html">
+      <span class="grid-kicker">Conditions d'utilisation</span>
+      <span class="grid-title">Français</span>
+      <span class="grid-langs">FR</span>
+    </a>
+    <a href="it/privacy.html">
+      <span class="grid-kicker">Informativa sulla privacy</span>
+      <span class="grid-title">Italiano</span>
+      <span class="grid-langs">IT</span>
+    </a>
+    <a href="it/terms.html">
+      <span class="grid-kicker">Termini di servizio</span>
+      <span class="grid-title">Italiano</span>
+      <span class="grid-langs">IT</span>
+    </a>
+    <a href="es/privacy.html">
+      <span class="grid-kicker">Política de privacidad</span>
+      <span class="grid-title">Español</span>
+      <span class="grid-langs">ES</span>
+    </a>
+    <a href="es/terms.html">
+      <span class="grid-kicker">Términos del servicio</span>
+      <span class="grid-title">Español</span>
+      <span class="grid-langs">ES</span>
+    </a>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 DevOP · <a href="mailto:support@interestme.example">support@interestme.example</a></p>
+</footer>
+
+</body>
+</html>

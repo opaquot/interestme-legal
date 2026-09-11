@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InterestMe — Termini di servizio</title>
+  <meta name="description" content="Termini di servizio di InterestMe — calcolatori finanziari educativi, non un consiglio di investimento.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/svg+xml" href="../img/logo.svg">
+  <script>
+    /* The app passes ?theme=dark|light when its in-app theme overrides the OS
+       setting. Without the parameter the page follows prefers-color-scheme. */
+    (function () {
+      var m = /[?&]theme=(dark|light)/.exec(location.search);
+      if (!m) return;
+      document.documentElement.setAttribute('data-theme', m[1]);
+      document.addEventListener('DOMContentLoaded', function () {
+        var links = document.querySelectorAll('.footer-langs a');
+        for (var i = 0; i < links.length; i++) {
+          links[i].search = '?theme=' + m[1];
+        }
+      });
+    })();
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../index.html">
+      <img class="brand-mark" src="../img/logo.svg" alt="" width="42" height="42">
+      <span class="brand-text">
+        <span class="brand-name">InterestMe</span>
+        <span class="brand-tagline">I tuoi soldi, il tuo futuro</span>
+      </span>
+    </a>
+  </div>
+</header>
+
+<main class="container">
+  <article class="doc-card">
+    <header class="doc-header">
+      <h1>Termini di servizio</h1>
+      <p class="doc-meta">Data di entrata in vigore: <time datetime="2026-09-11">11 settembre 2026</time></p>
+      <div class="doc-badges">
+        <span class="badge">Strumento educativo</span>
+        <span class="badge">Proiezioni ipotetiche</span>
+        <span class="badge">Non un consiglio di investimento</span>
+      </div>
+    </header>
+
+    <div class="callout">
+      <p>
+        <span class="callout-title">Dichiarazione finanziaria</span>
+        I calcolatori di InterestMe sono <strong>educativi</strong>. I risultati sono
+        <strong>proiezioni ipotetiche</strong> basate sui valori che inserisci, e nulla nell'app è
+        un <strong>consiglio di investimento</strong> né una garanzia di rendimento.
+      </p>
+    </div>
+
+    <p class="lead">
+      I presenti termini di servizio («Termini») disciplinano l'uso dell'applicazione mobile
+      InterestMe («l'App») pubblicata da DevOP. Scaricando, installando o
+      utilizzando l'App, accetti i presenti Termini.
+    </p>
+
+    <nav class="toc" aria-label="Indice">
+      <p class="toc-title">Indice</p>
+      <ol>
+        <li><a href="#l-app">L'App</a></li>
+        <li><a href="#uso-educativo">Uso educativo — non un consiglio finanziario</a></li>
+        <li><a href="#tuoi-dati">I tuoi dati</a></li>
+        <li><a href="#uso-consentito">Uso consentito</a></li>
+        <li><a href="#proprieta-intellettuale">Proprietà intellettuale</a></li>
+        <li><a href="#nessuna-garanzia">Nessuna garanzia</a></li>
+        <li><a href="#limitazione-responsabilita">Limitazione di responsabilità</a></li>
+        <li><a href="#modifiche">Modifiche</a></li>
+        <li><a href="#risoluzione">Risoluzione</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ol>
+    </nav>
+
+    <section id="l-app">
+      <h2><span class="num">1</span>L'App</h2>
+      <p>
+        InterestMe è un'applicazione di finanza personale che offre strumenti di calcolo finanziario
+        — attualmente un Calcolatore di interesse composto e un Pianificatore di obiettivi di
+        risparmio — per aiutarti a esplorare la matematica del risparmio e dell'investimento. La
+        versione 1.0.0 dell'App è completamente offline: non stabilisce connessioni di rete, non
+        prevede account e memorizza tutti i dati localmente sul tuo dispositivo.
+      </p>
+    </section>
+
+    <section id="uso-educativo">
+      <h2><span class="num">2</span>Uso educativo — non un consiglio finanziario</h2>
+      <p>
+        L'App è uno strumento educativo. I risultati che mostra sono proiezioni ipotetiche basate
+        sui valori che inserisci. Non costituiscono una consulenza in materia di investimenti,
+        finanziaria, fiscale o legale, e non garantiamo alcun risultato, rendimento o esito. Nulla
+        nell'App deve essere considerato una raccomandazione ad acquistare, detenere o vendere un
+        prodotto finanziario. Fai sempre le tue ricerche e consulta un professionista qualificato
+        prima di prendere decisioni finanziarie.
+      </p>
+    </section>
+
+    <section id="tuoi-dati">
+      <h2><span class="num">3</span>I tuoi dati</h2>
+      <p>
+        L'App non raccoglie né trasmette i tuoi dati. Le informazioni che inserisci sono memorizzate
+        solo sul tuo dispositivo. Sei responsabile dell'accuratezza delle informazioni che inserisci
+        e delle decisioni che prendi in base ai risultati dell'App.
+      </p>
+    </section>
+
+    <section id="uso-consentito">
+      <h2><span class="num">4</span>Uso consentito</h2>
+      <p>Accetti di utilizzare l'App per scopi leciti, personali e non commerciali, e di non:</p>
+      <ul>
+        <li>farne un uso improprio, interferire con il suo funzionamento o tentare di sottoporla a reverse engineering;</li>
+        <li>utilizzarla in modo da violare la legge applicabile.</li>
+      </ul>
+    </section>
+
+    <section id="proprieta-intellettuale">
+      <h2><span class="num">5</span>Proprietà intellettuale</h2>
+      <p>
+        L'App — inclusi codice, design, il nome «InterestMe» e il logo — appartiene a DevOP o ai
+        suoi licenzianti ed è protetta dalle leggi sulla proprietà intellettuale. Ti concediamo una
+        licenza limitata, non esclusiva, non trasferibile e revocabile per l'uso personale dell'App.
+        Non puoi copiare, modificare, distribuire, vendere l'App o creare opere derivate, salvo
+        quanto consentito dalla legge.
+      </p>
+    </section>
+
+    <section id="nessuna-garanzia">
+      <h2><span class="num">6</span>Nessuna garanzia</h2>
+      <p>
+        L'App è fornita «così com'è» e «come disponibile», senza garanzie di alcun tipo, espresse
+        o implicite — incluse, a titolo esemplificativo, le garanzie implicite di commerciabilità,
+        idoneità a uno scopo particolare e non violazione. Non garantiamo che l'App sia priva di
+        errori né che i suoi risultati siano accurati o completi.
+      </p>
+    </section>
+
+    <section id="limitazione-responsabilita">
+      <h2><span class="num">7</span>Limitazione di responsabilità</h2>
+      <p>
+        Nella misura massima consentita dalla legge applicabile, DevOP non sarà responsabile per
+        danni indiretti, incidentali, speciali, consequenziali o punitivi, né per la perdita di dati
+        o di profitto, derivanti dall'uso dell'App. In particolare, non siamo responsabili di alcuna
+        decisione finanziaria che prendi sulla base dei risultati dell'App.
+      </p>
+    </section>
+
+    <section id="modifiche">
+      <h2><span class="num">8</span>Modifiche</h2>
+      <p>
+        Potremmo aggiornare l'App o modificare i presenti Termini di tanto in tanto. Se modifichiamo
+        i Termini, aggiorneremo la «Data di entrata in vigore» sopra riportata e pubblicheremo la
+        nuova versione su questa pagina. Il proseguimento dell'uso dell'App dopo l'entrata in vigore
+        delle modifiche comporta l'accettazione dei nuovi Termini.
+      </p>
+    </section>
+
+    <section id="risoluzione">
+      <h2><span class="num">9</span>Risoluzione</h2>
+      <p>
+        Puoi smettere di utilizzare l'App in qualsiasi momento eliminandola dal tuo dispositivo, il
+        che cancella anche i tuoi dati locali. Possiamo risolvere o sospendere il tuo uso dell'App
+        se violi i presenti Termini.
+      </p>
+    </section>
+
+    <section id="contatti">
+      <h2><span class="num">10</span>Contatti</h2>
+      <p>
+        Domande sui presenti Termini:
+        <a href="mailto:support@interestme.example">support@interestme.example</a><br>
+        Editore: <strong>DevOP</strong>
+      </p>
+    </section>
+  </article>
+
+</main>
+
+<footer class="site-footer">
+  <nav class="footer-langs" aria-label="Lingua">
+      <a href="../en/terms.html" hreflang="en" lang="en">English</a>
+      <a href="../fr/terms.html" hreflang="fr" lang="fr">Français</a>
+      <span class="current" lang="it">Italiano</span>
+      <a href="../es/terms.html" hreflang="es" lang="es">Español</a>
+  </nav>
+  <p>© 2026 DevOP · <a href="mailto:support@interestme.example">support@interestme.example</a></p>
+</footer>
+
+</body>
+</html>

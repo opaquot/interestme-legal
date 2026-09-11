@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="InterestMe">
+  <defs>
+    <linearGradient id="im-i" gradientUnits="userSpaceOnUse" x1="261.5" y1="356" x2="261.5" y2="720">
+      <stop offset="0" stop-color="#1E4D35"/>
+      <stop offset="1" stop-color="#52A875"/>
+    </linearGradient>
+    <linearGradient id="im-m" gradientUnits="userSpaceOnUse" x1="582" y1="426" x2="582" y2="741">
+      <stop offset="0" stop-color="#52A875"/>
+      <stop offset="1" stop-color="#1E4D35"/>
+    </linearGradient>
+    <linearGradient id="im-stroke" gradientUnits="userSpaceOnUse" x1="733" y1="149" x2="517" y2="670">
+      <stop offset="0" stop-color="#1E4D35"/>
+      <stop offset="1" stop-color="#52A875"/>
+    </linearGradient>
+  </defs>
+  <path d="M327.58 274.182V856H204.568V274.182H327.58Z" fill="url(#im-i)"/>
+  <path d="M814.25 856H694.932V477.307H690.103L539.534 853.159H458.284L349.645 580.945V421.004L477.523 729.655C480.983 738.005 489.444 742.763 497.996 741.902C506.564 742.768 515.04 737.993 518.49 729.623L706.26 274.182H814.25V856ZM495.5 665.091H501.829L497.959 674.478L349.645 316.503V309.243L495.5 665.091ZM585.936 461.087L662.546 274.182H662.994L585.936 461.087Z" fill="url(#im-m)"/>
+  <path d="M498 719L733 149" fill="none" stroke="url(#im-stroke)" stroke-width="40" stroke-linecap="round"/>
+  <path d="M516.477 711.345C520.704 721.549 515.86 733.249 505.655 737.477C495.451 741.704 483.751 736.86 479.523 726.655L350 414.035V309.534L516.477 711.345Z" fill="#52A875"/>
+</svg>
